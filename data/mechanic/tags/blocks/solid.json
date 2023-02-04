@@ -1,0 +1,18 @@
+{
+    "values": [
+        "#mechanic:glass",
+        "#mechanic:metal",
+        "#mechanic:stone",
+        "#mechanic:wood",
+        "#minecraft:slabs",
+        "#minecraft:stairs",
+        "#minecraft:trapdoors",
+        "minecraft:bone_block",
+        "minecraft:glowstone",
+        "minecraft:observer",
+        "minecraft:redstone_block",
+        "minecraft:redstone_lamp",
+        "minecraft:shroomlight",
+        "minecraft:target"
+    ]
+}

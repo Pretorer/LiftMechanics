@@ -1,0 +1,1 @@
+scoreboard players set var SML.debug 2
