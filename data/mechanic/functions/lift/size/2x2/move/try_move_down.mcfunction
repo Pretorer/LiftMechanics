@@ -7,4 +7,4 @@ function mechanic:lift/common/stored_chains/check_four
 execute if score result SML.isValid matches 1 positioned ~-0.5 ~ ~-0.5 run function mechanic:lift/size/2x2/move/move_down
 
 # if not allowed to move, stop call
-execute if score result SML.isValid matches 0 run scoreboard players set @s SML.called 0
+execute if score result SML.isValid matches 0 run function mechanic:lift/size/2x2/move/stop_move

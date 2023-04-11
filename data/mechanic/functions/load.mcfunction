@@ -40,6 +40,7 @@ scoreboard objectives add SML.marked dummy
 scoreboard objectives add SML.hight dummy
 scoreboard objectives add SML.targetHight dummy
 scoreboard objectives add SML.called dummy
+scoreboard objectives add SML.velocity dummy
 scoreboard objectives add SML.onLift dummy
 scoreboard objectives add SML.isPowered dummy
 

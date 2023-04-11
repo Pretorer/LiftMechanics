@@ -40,6 +40,7 @@ scoreboard objectives remove SML.marked
 scoreboard objectives remove SML.hight
 scoreboard objectives remove SML.targetHight
 scoreboard objectives remove SML.called
+scoreboard objectives remove SML.velocity
 scoreboard objectives remove SML.onLift
 scoreboard objectives remove SML.isPowered
 

@@ -3,3 +3,6 @@ execute if score @s SML.called matches 1.. if score @s SML.hight < @s SML.target
 
 # move down
 execute if score @s SML.called matches 1.. if score @s SML.hight > @s SML.targetHight run function mechanic:lift/common/call/move_down
+
+# stop move
+execute if score @s SML.called matches 1.. if score @s SML.hight = @s SML.targetHight run function mechanic:lift/common/call/stop_move
