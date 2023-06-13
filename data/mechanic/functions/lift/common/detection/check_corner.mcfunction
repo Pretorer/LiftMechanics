@@ -1,1 +1,1 @@
-execute if block ~ ~ ~ #mechanic:container if block ~ ~-1 ~ minecraft:chain if block ~ ~-2 ~ minecraft:chain if block ~ ~-3 ~ minecraft:chain positioned ~0.5 ~ ~0.5 unless entity @e[tag=lift_corner_marker,distance=..0.1] run scoreboard players add @s SML.isValid 1
+execute if block ~ ~ ~ #mechanic:container if block ~ ~-1 ~ minecraft:chain if block ~ ~-2 ~ minecraft:chain if block ~ ~-3 ~ minecraft:chain if block ~ ~-4 ~ minecraft:chain positioned ~0.5 ~ ~0.5 unless entity @e[tag=lift_corner_marker,distance=..0.1] run scoreboard players add @s SML.isValid 1
