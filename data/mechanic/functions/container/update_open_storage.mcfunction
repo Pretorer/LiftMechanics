@@ -1,4 +1,4 @@
-# combine scores wit "or"
+# combine scores with "or"
 scoreboard players set @a SML.open_storage 0
 
 scoreboard players set @a[scores={SML.open_barrel=1..}] SML.open_storage 1
