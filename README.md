@@ -7,10 +7,6 @@ LiftMechanics is a Minecraft datapack that lets the player build lifts that move
 - A lifts can be automatically stopped at the next floor if it is marked with an observer.
 - A lifts stops when something is in its path and does not destroy a built.
 
-## Warning:
-You cannot duplicate blocks or items. A lift uses the previously placed or given chains and will stop working if a block is placed incorrectly above or below it.
-Be aware, that any items and XP that may lay on a lift will be lost when the lift moves, to protect e.g. the furnace against item duplication.
-
 ## Usage:
 The basic usage is as follows:
 To build a lift, you must first build a platform of 2x2, 3x3, 4x4 or 5x5 block size. Now place chains of at least 4 blocks height in the corners and above them containers like hoppers or dispensers. After a right click on one of the containers the lift is activated. If it needs to move down from its current position, place 4 chains per block in the container that the lift should be able to move down. If you now sneak or jump, the lift moves one block down or up.
