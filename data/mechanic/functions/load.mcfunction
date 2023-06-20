@@ -31,6 +31,7 @@ scoreboard objectives add SML.oldPosY dummy
 scoreboard objectives add SML.oldPosZ dummy
 scoreboard objectives add SML.hasMoved dummy
 scoreboard objectives add SML.found dummy
+scoreboard objectives add SML.settings dummy
 scoreboard objectives add SML.size dummy
 scoreboard objectives add SML.isValid dummy
 scoreboard objectives add SML.isInit dummy
@@ -49,11 +50,13 @@ scoreboard players set INFINITY SML.constants 2147483647
 scoreboard players set MIN_WORLD_HIGHT SML.constants -64
 scoreboard players set MAX_WORLD_HIGHT SML.constants 319
 
+scoreboard players set lift_speed SML.settings 2
+scoreboard players set lift_is_loud SML.settings 1
+
 
 # schedule loops
 schedule function mechanic:slow_loop 1t
 schedule function mechanic:utility/player_id/update_loop 11t
-
 
 # message
 tellraw @a [{"text":"Lift Mechanics","color":"green"},{"text":" has been reloaded.","color":"dark_green"}]

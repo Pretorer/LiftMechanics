@@ -31,6 +31,7 @@ scoreboard objectives remove SML.oldPosY
 scoreboard objectives remove SML.oldPosZ
 scoreboard objectives remove SML.hasMoved
 scoreboard objectives remove SML.found
+scoreboard objectives remove SML.settings
 scoreboard objectives remove SML.size
 scoreboard objectives remove SML.isValid
 scoreboard objectives remove SML.isInit
