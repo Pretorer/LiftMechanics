@@ -1,5 +1,6 @@
 # LiftMechanics
-LiftMechanics is a Minecraft datapack that lets the player build lifts that move block by block. They are available in four different sizes and can be combined with Redstone contraptions. There may be faster travel options, but you can build your own epic looking platforms and bring your buildings to life, or you can move larger block structures like small rooms.
+LiftMechanics is a Minecraft datapack that lets the player build lifts that move block by block. They are available in four different sizes and can be combined with Redstone contraptions. There may be faster travel options, but you can build your own epic looking platforms and bring your buildings to life, or you can move larger block structures like small rooms.  
+See [LiftMechanics on planetminecraft](https://www.planetminecraft.com/data-pack/lift-mechanics/).
 
 ## Features:
 - The datapack allows you to build lifts in four sizes up to 5x5 blocks wide.
