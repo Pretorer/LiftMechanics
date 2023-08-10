@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "open_shulker": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "SML.open_shulker"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mechanic:utility/player/opened_container"
+  }
+}

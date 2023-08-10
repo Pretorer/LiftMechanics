@@ -20,5 +20,8 @@ execute if score result SML.variables matches 1 as @e[tag=platform_marker] if sc
 # indicate success
 execute if score result SML.variables matches 1 as @e[tag=lift_corner_marker] if score @s SML.id = var SML.id at @s run playsound minecraft:block.iron_trapdoor.open block @a
 
+# debug
+execute if score result SML.variables matches 0 run say platform not found
+
 # cleanup if not found
 execute if score result SML.variables matches 0 run function mechanic:lift/common/platform/not_valid

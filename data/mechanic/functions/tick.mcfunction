@@ -1,5 +1,3 @@
-# update opened container 
-function mechanic:container/update
 
 # redstone interaction
 execute as @a[scores={SML.placedRLamp=1..}] at @s run function mechanic:redstone/caller/find

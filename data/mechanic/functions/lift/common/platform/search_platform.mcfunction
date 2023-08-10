@@ -1,7 +1,7 @@
 # detect what is seaching for
 scoreboard players set searchForChain SML.variables 0
 execute if block ~ ~-1 ~ minecraft:chain run scoreboard players set searchForChain SML.variables 1
-
+particle minecraft:bubble ~ ~ ~ 
 # check chains
 execute if score searchForChain SML.variables matches 1 if score @s SML.size matches 2 positioned ~ ~-1 ~ run function mechanic:lift/size/2x2/check_chain_level
 execute if score searchForChain SML.variables matches 1 if score @s SML.size matches 3 positioned ~ ~-1 ~ run function mechanic:lift/size/3x3/check_chain_level

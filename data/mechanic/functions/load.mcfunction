@@ -18,18 +18,6 @@ scoreboard objectives add SML.id dummy
 scoreboard objectives add SML.open_storage dummy
 scoreboard objectives add SML.ray_length dummy
 scoreboard objectives add SML.count dummy
-scoreboard objectives add SML.interacted dummy
-scoreboard objectives add SML.rotationX dummy
-scoreboard objectives add SML.rotationY dummy
-scoreboard objectives add SML.oldRotationX dummy
-scoreboard objectives add SML.oldRotationY dummy
-scoreboard objectives add SML.posX dummy
-scoreboard objectives add SML.posY dummy
-scoreboard objectives add SML.posZ dummy
-scoreboard objectives add SML.oldPosX dummy
-scoreboard objectives add SML.oldPosY dummy
-scoreboard objectives add SML.oldPosZ dummy
-scoreboard objectives add SML.hasMoved dummy
 scoreboard objectives add SML.found dummy
 scoreboard objectives add SML.settings dummy
 scoreboard objectives add SML.size dummy
@@ -56,7 +44,6 @@ scoreboard players set lift_is_loud SML.settings 1
 
 # schedule loops
 schedule function mechanic:slow_loop 1t
-schedule function mechanic:utility/player_id/update_loop 11t
 
 # message
 tellraw @a [{"text":"Lift Mechanics","color":"green"},{"text":" has been reloaded.","color":"dark_green"}]
