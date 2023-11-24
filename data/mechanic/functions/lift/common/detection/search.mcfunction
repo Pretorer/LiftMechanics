@@ -6,7 +6,7 @@ scoreboard players set @s SML.isValid 0
 function mechanic:lift/common/detection/check_corner
 
 # debug
-execute if score @s SML.isValid matches 0 run say stop search
+execute if score var SML.debug matches 2.. if score @s SML.isValid matches 0 run say stop search (no valid container)
 
 # set found to skip the search if invalid corner
 execute if score @s SML.isValid matches 0 run return 0
