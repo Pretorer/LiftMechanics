@@ -20,6 +20,7 @@
         "minecraft:iron_bars",
         "#minecraft:pressure_plates",
         "#minecraft:trapdoors",
-        "#minecraft:wool_carpets"
+        "#minecraft:wool_carpets",
+        "#minecraft:rails"
     ]
 }
