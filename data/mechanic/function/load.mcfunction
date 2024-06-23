@@ -10,9 +10,6 @@ scoreboard objectives add SML.open_t_chest minecraft.custom:minecraft.trigger_tr
 scoreboard objectives add SML.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add SML.jump minecraft.custom:minecraft.jump
 
-scoreboard objectives add SML.placedObs minecraft.used:minecraft.observer
-scoreboard objectives add SML.placedRLamp minecraft.used:minecraft.redstone_lamp
-
 scoreboard objectives add SML.debug dummy
 scoreboard objectives add SML.id dummy
 scoreboard objectives add SML.open_storage dummy

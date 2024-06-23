@@ -1,3 +1,6 @@
+# debug
+execute if score var SML.debug matches 2.. run say @s build an observer
+
 # find chest (set position with marker)
 function mechanic:utility/ray_casting/cast
 
@@ -7,4 +10,4 @@ execute at @e[tag=ray_hit_marker] align xyz run function mechanic:redstone/brake
 kill @e[tag=caller_marker,scores={SML.onLift=0}]
 
 # reset
-scoreboard players set @s SML.placedObs 0
+advancement revoke @s only mechanic:placed_observer

@@ -9,5 +9,8 @@ execute as @e[tag=platform_marker,scores={SML.isInit=1},distance=..10] at @s pos
 # link if valid
 execute positioned ~0.5 ~0.5 ~0.5 as @e[tag=brake_marker,scores={SML.onLift=1..},distance=..0.2] at @s run function mechanic:redstone/common/link_to_lift
 
+# signal success using sound
+execute positioned ~0.5 ~0.5 ~0.5 as @e[tag=brake_marker,scores={SML.onLift=1..},distance=..0.2] at @s run playsound minecraft:block.copper_door.close block @a
+
 # remove marker if not valide
 kill @e[tag=brake_marker,scores={SML.onLift=0}]

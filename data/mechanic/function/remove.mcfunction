@@ -10,9 +10,6 @@ scoreboard objectives remove SML.open_t_chest
 scoreboard objectives remove SML.sneak
 scoreboard objectives remove SML.jump
 
-scoreboard objectives remove SML.placedObs
-scoreboard objectives remove SML.placedRLamp
-
 scoreboard objectives remove SML.debug
 scoreboard objectives remove SML.id
 scoreboard objectives remove SML.open_storage
@@ -42,3 +39,7 @@ kill @e[tag=platform_marker]
 
 # message
 tellraw @p [{"text":"Steam mechanics","color":"green"},{"text":" has been removed.","color":"dark_green"}]
+
+# remove unused (start)
+scoreboard objectives remove SML.placedObs
+scoreboard objectives remove SML.placedRLamp
