@@ -4,7 +4,9 @@ See [LiftMechanics on planetminecraft](https://www.planetminecraft.com/data-pack
 
 ## Features:
 - The datapack allows you to build lifts in four sizes up to 5x5 blocks wide.
-- The datapack allows redstone to interact with lifts through redstone lamps.
+- The datapack allows redstone to interact with lifts:
+    - A redstone lamps calls the lift to the hight at which it was placed next to the lift. The lift will stop next to the first observer on its path.
+    - A copper bulb calls the lift to the hight at which it was placed next to the lift. The lift will ignore every observer on its path.
 - A lifts can be automatically stopped at the next floor if it is marked with an observer.
 - A lifts stops when something is in its path and does not destroy a built.
 
