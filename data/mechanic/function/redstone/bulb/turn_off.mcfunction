@@ -3,7 +3,7 @@ scoreboard players operation var SML.id = @s SML.id
 scoreboard players operation var SML.hight = @s SML.hight
 
 # check if lift has arrived
-execute as @e[tag=platform_marker] if score @s SML.id = var SML.id unless score @s SML.hight = var SML.hight run return 0
+execute as @e[tag=platform_marker,scores={SML.called=1..}] if score @s SML.id = var SML.id unless score @s SML.hight = var SML.hight run return 0
 
 # turn off the copper bulb
 fill ~ ~ ~ ~ ~ ~ minecraft:copper_bulb replace minecraft:copper_bulb
