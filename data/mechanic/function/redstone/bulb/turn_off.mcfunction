@@ -14,4 +14,3 @@ fill ~ ~ ~ ~ ~ ~ minecraft:waxed_copper_bulb replace minecraft:waxed_copper_bulb
 fill ~ ~ ~ ~ ~ ~ minecraft:waxed_exposed_copper_bulb replace minecraft:waxed_exposed_copper_bulb
 fill ~ ~ ~ ~ ~ ~ minecraft:waxed_oxidized_copper_bulb replace minecraft:waxed_oxidized_copper_bulb
 fill ~ ~ ~ ~ ~ ~ minecraft:waxed_weathered_copper_bulb replace minecraft:waxed_weathered_copper_bulb
-say set
