@@ -10,4 +10,4 @@ execute as @e[tag=caller_marker,scores={SML.id=1..}] at @s if block ~ ~ ~ minecr
 execute as @e[tag=bulb_marker,scores={SML.id=1..}] at @s if block ~ ~ ~ #mechanic:copper_bulb[powered=false] run scoreboard players set @s SML.isPowered 0
 
 # reset if lift arrived
-execute as @e[tag=bulb_marker,scores={SML.id=1..,SML.onLift=1..}] at @s run function mechanic:redstone/bulb/turn_off
+execute as @e[tag=bulb_marker,scores={SML.id=1..,SML.onLift=1..}] at @s if block ~ ~ ~ #mechanic:copper_bulb[lit=true] run function mechanic:redstone/bulb/turn_off
