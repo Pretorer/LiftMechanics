@@ -1,5 +1,5 @@
 # redstone interaction
-function mechanic:redstone/update
+function mechanic:interaction/update
 
 # platform
 execute as @e[tag=platform_marker,scores={SML.isInit=1}] at @s run function mechanic:lift/common/update

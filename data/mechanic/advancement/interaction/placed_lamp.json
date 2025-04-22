@@ -17,7 +17,7 @@
       }
     },
     "rewards": {
-      "function": "mechanic:redstone/caller/find"
+      "function": "mechanic:interaction/caller/find"
     }
   }
   

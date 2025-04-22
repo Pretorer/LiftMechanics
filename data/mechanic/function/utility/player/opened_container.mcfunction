@@ -13,10 +13,10 @@ scoreboard players set @s SML.open_dropper 0
 scoreboard players set @s SML.open_hopper 0
 scoreboard players set @s SML.open_shulker 0
 
-advancement revoke @s only mechanic:open_barrel
-advancement revoke @s only mechanic:open_chest
-advancement revoke @s only mechanic:open_dispenser
-advancement revoke @s only mechanic:open_dropper
-advancement revoke @s only mechanic:open_hopper
-advancement revoke @s only mechanic:open_shulker
-advancement revoke @s only mechanic:open_t_chest
+advancement revoke @s only mechanic:container/open_barrel
+advancement revoke @s only mechanic:container/open_chest
+advancement revoke @s only mechanic:container/open_dispenser
+advancement revoke @s only mechanic:container/open_dropper
+advancement revoke @s only mechanic:container/open_hopper
+advancement revoke @s only mechanic:container/open_shulker
+advancement revoke @s only mechanic:container/open_t_chest

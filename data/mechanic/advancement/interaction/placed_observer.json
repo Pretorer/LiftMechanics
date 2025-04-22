@@ -17,7 +17,7 @@
       }
     },
     "rewards": {
-      "function": "mechanic:redstone/brake/find"
+      "function": "mechanic:interaction/brake/find"
     }
   }
   

@@ -27,7 +27,7 @@
       }
     },
     "rewards": {
-      "function": "mechanic:redstone/bulb/find"
+      "function": "mechanic:interaction/bulb/find"
     }
   }
   

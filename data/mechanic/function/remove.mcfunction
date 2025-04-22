@@ -29,6 +29,7 @@ scoreboard objectives remove SML.called
 scoreboard objectives remove SML.velocity
 scoreboard objectives remove SML.onLift
 scoreboard objectives remove SML.isPowered
+scoreboard objectives remove SML.railShape
 
 scoreboard objectives remove SML.constants
 
@@ -36,6 +37,7 @@ kill @e[tag=ray_hit_marker]
 kill @e[tag=lift_corner_marker]
 kill @e[tag=lift_marker]
 kill @e[tag=platform_marker]
+kill @e[tag=rail_marker]
 
 # message
 tellraw @p [{"text":"Steam mechanics","color":"green"},{"text":" has been removed.","color":"dark_green"}]
