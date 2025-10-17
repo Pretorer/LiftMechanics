@@ -1,4 +1,4 @@
-# remove chain count
+# remove minecraft:iron_chain count
 function mechanic:lift/common/stored_chains/add_four
 
 # mark xp and items

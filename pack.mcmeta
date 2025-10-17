@@ -1,6 +1,7 @@
 {
     "pack":{
-        "pack_format":33,
+        "min_format": [88, 0],
+        "max_format": [88, 0],
         "description":"Pretorer's lift mechanic pack"
     }
 }
