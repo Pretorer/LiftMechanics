@@ -14,7 +14,11 @@ scoreboard objectives add SML.debug dummy
 scoreboard objectives add SML.id dummy
 scoreboard objectives add SML.open_storage dummy
 scoreboard objectives add SML.ray_length dummy
-scoreboard objectives add SML.count dummy
+
+scoreboard objectives add SML.chain_count_iron dummy
+scoreboard objectives add SML.chain_count_raw_copper dummy
+scoreboard objectives add SML.chain_count_waxed_copper dummy
+
 scoreboard objectives add SML.found dummy
 scoreboard objectives add SML.settings dummy
 scoreboard objectives add SML.size dummy
@@ -38,6 +42,8 @@ scoreboard players set MAX_WORLD_HIGHT SML.constants 319
 scoreboard players set lift_speed SML.settings 2
 scoreboard players set lift_is_loud SML.settings 1
 
+# upgrade from old version
+function mechanic:upgrade
 
 # schedule loops
 schedule function mechanic:slow_loop 1t
