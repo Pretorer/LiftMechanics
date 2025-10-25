@@ -2,7 +2,7 @@
 execute if score var SML.debug matches 1.. run say container opened
 
 # count chains if container open
-function mechanic:container/count_chains
+function mechanic:lift/common/detection/search_on_ray_cast
 
 # reset scores
 scoreboard players set @s SML.open_barrel 0

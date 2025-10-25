@@ -6,16 +6,16 @@ scoreboard players set @s SML.chain_count_waxed_copper 0
 # count chains of each slot
 # Slot 0
 execute store success score success SML.variables run data modify storage sml:temp Item set from block ~ ~ ~ Items[{Slot:0b}]
-function mechanic:container/check_item_type
+function mechanic:container/count_chains/slot
 # Slot 1
 execute store success score success SML.variables run data modify storage sml:temp Item set from block ~ ~ ~ Items[{Slot:1b}]
-function mechanic:container/check_item_type
+function mechanic:container/count_chains/slot
 # Slot 2
 execute store success score success SML.variables run data modify storage sml:temp Item set from block ~ ~ ~ Items[{Slot:2b}]
-function mechanic:container/check_item_type
+function mechanic:container/count_chains/slot
 # Slot 3
 execute store success score success SML.variables run data modify storage sml:temp Item set from block ~ ~ ~ Items[{Slot:3b}]
-function mechanic:container/check_item_type
+function mechanic:container/count_chains/slot
 # Slot 4
 execute store success score success SML.variables run data modify storage sml:temp Item set from block ~ ~ ~ Items[{Slot:4b}]
-function mechanic:container/check_item_type
+function mechanic:container/count_chains/slot
