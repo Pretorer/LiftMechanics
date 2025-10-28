@@ -7,4 +7,7 @@ execute as @e[tag=lift_corner_marker] if score @s SML.id = var SML.id at @s run 
 execute as @e[tag=lift_marker] if score @s SML.id = var SML.id at @s run function mechanic:lift/common/stored_chains/update_chains
 
 # invalidate
-execute as @e[tag=lift_marker] if score @s SML.id = var SML.id if score @s SML.chain_count_iron matches ..3 run scoreboard players set result SML.isValid 0
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id run scoreboard players operation tmp SML.variables = @s SML.chain_count_iron
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id run scoreboard players operation tmp SML.variables += @s SML.chain_count_raw_copper
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id run scoreboard players operation tmp SML.variables += @s SML.chain_count_waxed_copper
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id if score tmp SML.variables matches ..3 run scoreboard players set result SML.isValid 0
