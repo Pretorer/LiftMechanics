@@ -1,5 +1,9 @@
-# remove minecraft:iron_chain count
-function mechanic:lift/common/stored_chains/add_four
+# place chain and use chains from count
+scoreboard players operation var SML.id = @s SML.id
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id positioned ~ ~3 ~ run function mechanic:lift/common/stored_chains/break_chain
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id positioned ~2 ~3 ~ run function mechanic:lift/common/stored_chains/break_chain
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id positioned ~ ~3 ~2 run function mechanic:lift/common/stored_chains/break_chain
+execute as @e[tag=lift_marker] if score @s SML.id = var SML.id positioned ~2 ~3 ~2 run function mechanic:lift/common/stored_chains/break_chain
 
 # mark xp and items
 execute positioned ~ ~-1 ~ run tag @e[type=experience_orb,dx=2,dy=3,dz=2] add persistent

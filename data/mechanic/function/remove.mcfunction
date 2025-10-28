@@ -14,7 +14,11 @@ scoreboard objectives remove SML.debug
 scoreboard objectives remove SML.id
 scoreboard objectives remove SML.open_storage
 scoreboard objectives remove SML.ray_length
-scoreboard objectives remove SML.count
+
+scoreboard objectives remove SML.chain_count_iron
+scoreboard objectives remove SML.chain_count_raw_copper
+scoreboard objectives remove SML.chain_count_waxed_copper
+
 scoreboard objectives remove SML.found
 scoreboard objectives remove SML.settings
 scoreboard objectives remove SML.size
@@ -38,7 +42,7 @@ kill @e[tag=lift_marker]
 kill @e[tag=platform_marker]
 
 # message
-tellraw @p [{"text":"Steam mechanics","color":"green"},{"text":" has been removed.","color":"dark_green"}]
+tellraw @a [{"text":"Lift Mechanics","color":"green"},{"text":" has been reloaded.","color":"dark_green"}]
 
 # remove unused (start)
 scoreboard objectives remove SML.placedObs

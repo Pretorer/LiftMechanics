@@ -3,7 +3,6 @@ function mechanic:redstone/update
 
 # platform
 execute as @e[tag=platform_marker,scores={SML.isInit=1}] at @s run function mechanic:lift/common/update
-execute as @e[tag=lift_marker,scores={SML.isInit=1}] at @s run function mechanic:lift/common/stored_chains/update_chains
 
 # reset player input
 scoreboard players set @a SML.jump 0
