@@ -9,6 +9,7 @@ See [LiftMechanics on planetminecraft](https://www.planetminecraft.com/data-pack
     - A copper bulb calls the lift to the hight at which it was placed next to the lift. The lift will ignore every observer on its path. The copper bulb lights up as long as the lift is moving.
 - A lifts can be automatically stopped at the next floor if it is marked with an observer.
 - A lifts stops when something is in its path and does not destroy a built.
+- All chain variants can be used to build a lift.
 
 ## Usage:
 The basic usage is as follows:
