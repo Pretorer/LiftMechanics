@@ -2,8 +2,16 @@
 ## by quality decending: {0:none, 1:iron, 2:waxed, 3:raw}
 scoreboard players set chain_type SML.variables 0
 execute if block ~ ~ ~ minecraft:iron_chain run scoreboard players set chain_type SML.variables 1
+
 execute if block ~ ~ ~ minecraft:waxed_copper_chain run scoreboard players set chain_type SML.variables 2
+execute if block ~ ~ ~ minecraft:waxed_exposed_copper_chain run scoreboard players set chain_type SML.variables 2
+execute if block ~ ~ ~ minecraft:waxed_weathered_copper_chain run scoreboard players set chain_type SML.variables 2
+execute if block ~ ~ ~ minecraft:waxed_oxidized_copper_chain run scoreboard players set chain_type SML.variables 2
+
 execute if block ~ ~ ~ minecraft:copper_chain run scoreboard players set chain_type SML.variables 3
+execute if block ~ ~ ~ minecraft:exposed_copper_chain run scoreboard players set chain_type SML.variables 3
+execute if block ~ ~ ~ minecraft:weathered_copper_chain run scoreboard players set chain_type SML.variables 3
+execute if block ~ ~ ~ minecraft:oxidized_copper_chain run scoreboard players set chain_type SML.variables 3
 
 
 # increase chain count
