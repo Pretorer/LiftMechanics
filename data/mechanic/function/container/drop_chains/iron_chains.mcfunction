@@ -1,5 +1,7 @@
-tellraw @a [{"text":"Found "},{"score":{"name":"@s","objective":"SML.chain_count_iron"}},{"text":" iron_chain"}]
+# debug
+execute if score var SML.debug matches 2.. run tellraw @a [{"text":"Found "},{"score":{"name":"@s","objective":"SML.chain_count_iron"}},{"text":" iron_chain"}]
 
+# count chains
 execute if score @s SML.chain_count_iron matches 64.. run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:iron_chain",count:64}}
 execute if score @s SML.chain_count_iron matches 64.. run scoreboard players remove @s SML.chain_count_iron 64
 

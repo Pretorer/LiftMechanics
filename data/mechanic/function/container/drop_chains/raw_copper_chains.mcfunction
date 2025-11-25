@@ -1,5 +1,7 @@
-tellraw @a [{"text":"Found "},{"score":{"name":"@s","objective":"SML.chain_count_raw_copper"}},{"text":" copper_chain"}]
+# debug
+execute if score var SML.debug matches 2.. run tellraw @a [{"text":"Found "},{"score":{"name":"@s","objective":"SML.chain_count_raw_copper"}},{"text":" copper_chain"}]
 
+# count chains
 execute if score @s SML.chain_count_raw_copper matches 64.. run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:copper_chain",count:64}}
 execute if score @s SML.chain_count_raw_copper matches 64.. run scoreboard players remove @s SML.chain_count_raw_copper 64
 
